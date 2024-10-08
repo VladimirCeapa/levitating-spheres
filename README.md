@@ -1,4 +1,4 @@
-# Breadcrumbslevitating-spheres
+# Levitating Spheres
 
 https://vladimirceapa.github.io/levitating-spheres/
 
