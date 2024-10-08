@@ -131,4 +131,64 @@ body {
     100% {
         transform: scale(0);
     }
+}    
+
+
+
+    
+.loaderHome {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    float: right;
+    left: -100px;
 }
+.loaderHome h2{
+    color: #f9f9f9;
+	margin: 0 auto	;
+	font-family: 'Popping';
+}
+.loaderHome loader_home {
+    position: absolute;
+    top: 23px;
+    left:5px;
+}
+
+.loaderHome span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: blue; */
+    transform: rotate(calc(18deg * var(--i)));
+}
+
+.loaderHome span:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px #f9f9f9, 0 0 20px #f9f9f9, 0 0 40px #f9f9f9,
+        0 0 60px #f9f9f9, 0 0 80px #f9f9f9, 0 0 100px#f9f9f9;
+    animation: animate3 2s linear infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animate3 {
+    0% {
+        transform: scale(1);
+    }
+
+    80%,
+    100% {
+        transform: scale(0);
+    }
+}
+
+
+
