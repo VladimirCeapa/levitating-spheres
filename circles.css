@@ -107,7 +107,7 @@ body {
     transform: translateY(-100%) translateX(-40px);
   }
 }
-.loader span:before {
+.loaderHome span:before {
     content: "";
     position: absolute;
     top: 0;
